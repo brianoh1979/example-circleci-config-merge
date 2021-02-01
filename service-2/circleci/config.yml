@@ -4,7 +4,7 @@ commands:
     steps:
       - run:
           name: bar
-          command: echo bar
+          command: echo bar2
 executors:
   bar:
     docker:

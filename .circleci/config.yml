@@ -11,12 +11,12 @@ commands:
   bar:
     steps:
     - run:
-        command: echo bar
+        command: echo bar2
         name: bar
   foo:
     steps:
     - run:
-        command: echo foo
+        command: echo foo2
         name: foo
 executors:
   bar:
